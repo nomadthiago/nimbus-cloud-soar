@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CloudIcon, Mail, Phone, MapPin } from 'lucide-react';
 
@@ -60,8 +59,8 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 text-nimbus-light-blue mr-3 mt-0.5" />
                 <span className="text-gray-300">
-                  123 Salesforce Tower<br />
-                  San Francisco, CA 94105
+                  7901 4th St N # 16711<br />
+                  St. Petersburg, FL 33702
                 </span>
               </li>
               <li className="flex items-center">
