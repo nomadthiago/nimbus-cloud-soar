@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -189,8 +188,11 @@ const Contact = () => {
                         <Mail className="h-6 w-6 text-nimbus-salesforce mr-4 mt-1" />
                         <div>
                           <h4 className="font-medium text-lg">Email</h4>
-                          <a href="mailto:info@flyingnimbus.com" className="text-gray-600 hover:text-nimbus-salesforce transition-colors mt-1 block">
-                            info@flyingnimbus.com
+                          <a 
+                            href="mailto:info@theflyingnimbus.com" 
+                            className="text-gray-600 hover:text-nimbus-salesforce transition-colors mt-1 block"
+                          >
+                            info@theflyingnimbus.com
                           </a>
                         </div>
                       </div>
