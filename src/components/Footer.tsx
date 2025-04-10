@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CloudIcon, Mail, Phone, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -68,8 +67,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-nimbus-light-blue mr-3" />
-                <a href="mailto:info@flyingnimbus.com" className="text-gray-300 hover:text-white">
-                  info@flyingnimbus.com
+                <a href="mailto:info@theflyingnimbus.com" className="text-gray-300 hover:text-white">
+                  info@theflyingnimbus.com
                 </a>
               </li>
             </ul>
@@ -78,7 +77,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400 text-sm">
           <p>&copy; {new Date().getFullYear()} Flying Nimbus. All rights reserved.</p>
-          <p className="mt-2 text-sm">Email: info@flyingnimbus.com</p>
+          <p className="mt-2 text-sm">Email: info@theflyingnimbus.com</p>
         </div>
       </div>
     </footer>
