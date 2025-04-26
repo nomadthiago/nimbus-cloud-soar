@@ -3,8 +3,15 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { CloudIcon } from 'lucide-react';
 import heroBackground from '../assets/hero-background.jpg';
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleStartJourney = () => {
+    navigate('/contact');
+  };
+
   return (
     <section
       className="relative min-h-[90vh] flex items-center pt-16"
@@ -30,7 +37,10 @@ const Hero = () => {
             Elevate your business with expert Salesforce consulting—streamlined operations, boosted sales, and limitless growth.
           </p>
           
-          <Button className="bg-gradient-to-r from-nimbus-salesforce to-nimbus-blue text-white text-lg py-6 px-8 rounded-full hover:shadow-lg transition-all">
+          <Button 
+            onClick={handleStartJourney} 
+            className="bg-gradient-to-r from-nimbus-salesforce to-nimbus-blue text-white text-lg py-6 px-8 rounded-full hover:shadow-lg transition-all"
+          >
             Start Your Journey
           </Button>
           
@@ -50,3 +60,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
