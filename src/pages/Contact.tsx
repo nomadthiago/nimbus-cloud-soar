@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -205,7 +204,7 @@ const Contact = () => {
                         <div>
                           <h4 className="font-medium text-lg">Address</h4>
                           <address className="not-italic text-gray-600 mt-1">
-                            7901 4th St N # 16711<br />
+                            7901 4th St N<br />
                             St. Petersburg, FL 33702
                           </address>
                         </div>
